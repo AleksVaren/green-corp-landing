@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <title>Солнечные батареи GreenCorp</title>
-  <link rel="stylesheet" href="main.css">
+  <title>Солнечные батареи GreenCorp</title> <!-- старт проэкта -->
+  <link rel="stylesheet" href="main.css"> <!-- старт проэкта -->
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header><!-- старт 2 - хедер -->
     <img class="header__logo" src='img/logo.svg'>
     <div class="header__controls">
         <a href="#contacts">Контакты</a>
         <button>Заказать</button>
       </div>
   </header>
-  <section class="about">
+  <section class="about"><!-- секция 1 солнце с панелями -->
     <div class="about__info">
       <h1>Солнечные панели GreenRobotic</h1>
       <p>Производите дешёвую экологически чистую электроэнергию из солнечного света</p>
@@ -24,37 +24,72 @@
       <img class="about__image" src="img/solar-panel.png">
     </div>
   </section>
-  <section class="form">
+  <section class="form"><!-- секция 2 форма -->
     <div class="form__containter">
       <h1>Оставьте свои контакты.</h1>
-      <p>Поможем подобрать модель. <br>Выбрать удобный вариант доставки и установки. <br>Гарантия возврата денег</p>
-      <form>
-            <div class="form__group">
+      <p>Поможем подобрать модель. 
+        <br>Выбрать удобный вариант доставки и установки. 
+        <br>Гарантия возврата денег
+      </p>
+      <form><!-- проверить!!! -->
+          <div class="form__group">
               <label for="name">Ваше имя</label>
-              <input id="name" type="text" placeholder="Введите имя">
-            </div>
-            <div class="form__group">
+              <input type="text" placeholder="Введите имя" id="name">
+          </div>
+          <div class="form__group">
               <label for="email">Электронный адрес</label>
-              <input id="email" type="text" placeholder="***@yandex.ru">
-            </div>
-            <div class="form__group">
+              <input type="text" placeholder="***@yandex.ru" id="email">
+          </div>
+          <div class="form__group">
               <label for="phone">Номер телефона</label>
-              <input id="phone" type="text" placeholder="7 (999) 999-99-99">
-            </div>
-            <div class="form__group">
+              <input type="text" placeholder="7 (999) 999-99-99" id="phone">
+          </div>
+          <div class="form__group">
              <label for="budget">Примерный бюджет</label>
              <select id="budget">
               <option value=10–30>10 000₽ – 30 000₽</option>
               <option value=30–60>30 000₽ – 60 000₽</option>
               <option value=60–100>60 000₽ – 100 000₽ </option>
               <option value=100>100 000₽ </option>
-             </select>
-
-        </div>
+             </select>  
+          </div>
         <button type="submit" class="form__submit">Отправить заявку</button>
       </form>
-
     </div>
   </section>
 </body>
+<footer><!-- подвал -->
+<div class="footer__container">
+       <!-- Блок ссылок 1 -->
+   <div class="footer__group">
+        <h3>Позвонить нам:</h3>
+      <div class="footer__links">
+          <a href="tel:74959999999">+7 (495) 999-99-99</a>
+      </div>
+   </div>
+        <!-- Блок ссылок 2 -->
+   <div class="footer__group">
+          <h3>Решения для дома:</h3>
+        <div class="footer__links">
+            <a href="#">Солнечные панели GreenRobotic</a>
+            <a href="#">Системы солнечных панелей GreenStation</a>
+        </div>
+   </div>
+         <!-- Блок ссылок 3 -->
+   <div class="footer__group">
+          <h3>Компания</h3>
+       <div class="footer__links">
+            <a href="#">Контакты, Вакансии, СМИ.</a>
+       </div>
+   </div>
+  
+</div>
+<h3></h3>
+<h3></h3>
+</div>
+<div class="footer__copyright">
+<p>GreenCorp © 2021</p>
+
+</div>
+</footer>
 </html> 
