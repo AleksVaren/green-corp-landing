@@ -196,3 +196,7 @@ flex-direction: column;
   text-align: center;
   opacity: 0.5;
 }
+
+.fa-angle-right {
+  margin-left: 10px;
+}
