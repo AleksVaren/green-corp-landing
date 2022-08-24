@@ -92,14 +92,13 @@ header a {
 }
 
 .form {
-  display: flex; 
-  justify-content: center; 
-  align-items: center;
   background-color: #1D263A;
   color: #fff;
-  padding-top: 115px; 
+  padding-top: 115px;
   padding-bottom: 115px;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .form h1 {
@@ -136,6 +135,7 @@ opacity: 0.65;
   padding: 0 20px;
   border-radius: 15px;
   border: none;
+  outline: none;
 }
 
 .form select {
@@ -145,6 +145,7 @@ opacity: 0.65;
   padding: 0 20px;
   border-radius: 15px;
   border: none;
+  outline: none;
 }
 
 .form__submit {
@@ -155,10 +156,6 @@ opacity: 0.65;
 
 select {
   appearance: none;
-}
-
-input {
-  outline: none;
 }
 
 footer {
