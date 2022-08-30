@@ -2,6 +2,7 @@ body {
   font-family: 'Raleway', sans-serif;
   color: #213053;
   margin: 0;
+  
 
 }
 
@@ -9,7 +10,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px
+    padding: 20px;
+    position: sticky;
+    background-color: #fff;
+    top: 0;
+    z-index: 1;
+    
+    
   }
 
 .header__logo {
@@ -52,6 +59,8 @@ header a {
 .about__sun-image {
     width: 100px;
     height: 100px;
+    animation: rotation 10s infinite linear;
+    position: absolute;
   }
 
  
@@ -64,6 +73,7 @@ header a {
     background: url('img/back.png') no-repeat;
     background-position: center;
     background-size: cover;
+    
   }
 
   .about h1 {
@@ -197,3 +207,8 @@ flex-direction: column;
 .fa-angle-right {
   margin-left: 10px;
 }
+
+@keyframes rotation{
+  0%{transform: rotate(0deg);} 
+  100%{transform: rotate(360deg);}
+ }
